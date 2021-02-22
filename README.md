@@ -4,16 +4,15 @@ This project was made as the final project of [RE_Start Developer](https://pt.pr
 
 # OK Computer
 
-An on-line store but as if we were in the 80s! Some of the features implemented.
+An on-line store but as if we were in the 80s! Some of the features implemented:
 
-* The top menu changes wheter the user is logged in or not;
-* The front page has features products;
+* The top menu changes whether the user is logged in or not;
+* The front page has featured products;
 * One of the featured products has more emphasis;
 * There's a search functionality with filters;
 * There's a menu with categories;
 * The products can be ordered by certain criteria;
-* Only logged in users can make orders;
-* Other.
+* Only logged in users can make orders and checkout.
 
 > You can log in with the email `email@email.com` and the password `1234`. You can also register for an account or manually add a user to the db.json file.
 
