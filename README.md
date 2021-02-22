@@ -14,7 +14,9 @@ An on-line store but as if we were in the 80s! Some of the features implemented:
 * The products can be ordered by certain criteria;
 * Only logged in users can make orders and checkout.
 
-> You can log in with the email `email@email.com` and the password `1234`. You can also register for an account or manually add a user to the db.json file.
+> You can log in with the email `email@email.com` and the password `1234`.
+>
+> You can also register for an account or manually add a user to the db.json file.
 
 ## Install the dependencies
 
