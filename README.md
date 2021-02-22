@@ -1,6 +1,6 @@
 # Introduction
 
-This project was made as the final project of [RE_Start Developer](https://pt.primaverabss.com/pt/formacao-2/acoes-em-destaque/restart/)'s training course for the JavaScript Frameworks' module. It's an academic project made with no intention to be used as a real front-end for an eCommerce store. It's a complete beginner project, made with limited time. Should you decide to use any of this code in prodution, be very aware of its caveats.
+This project was made as the final project of [RE_Start Developer](https://pt.primaverabss.com/pt/formacao-2/acoes-em-destaque/restart/)'s training course for the JavaScript Frameworks' module. It's an academic project made with no intention to be used as a real front-end for an eCommerce store. It's a complete beginner project, made within a very limited time frame. Should you decide to use any of this code in prodution, be very aware of its caveats.
 
 # OK Computer
 
