@@ -4,17 +4,24 @@ This project was made as the final project of [RE_Start Developer](https://pt.pr
 
 # OK Computer
 
-An on-line store but as if we were in the 80s 👩‍🎤 You can log in with the email `email@email.com` and the password `1234`. You can alseo manually add a user to the db.json file.
+An on-line store but as if we were in the 80s! Some of the features implemented.
 
-* The top menu changes wheter the user is logged in or not
-* The front page has features products
-* There's a featured product
+* The top menu changes wheter the user is logged in or not;
+* The front page has features products;
+* One of the featured products has more emphasis;
+* There's a search functionality with filters;
+* There's a menu with categories;
+* The products can be ordered by certain criteria;
+* Only logged in users can make orders;
+* Other.
+
+> You can log in with the email `email@email.com` and the password `1234`. You can also register for an account or manually add a user to the db.json file.
 
 ## Install the dependencies
 
 To try it out for yourself, install all the dependecies. You'll also need to have Angular installed.
 
-    `npm install`
+    npm install
 
 ## Development server
 
@@ -50,4 +57,6 @@ All images by ***docubyte / INK***, [Check out their awesome work here.](https:/
 * Store the user session
 * Create the API from scratch in Express or .NET, or both
 * Add a relacional or a NoSQL database or both
-* 
+* Add a back-end to manage the store
+* Add Stripe for payments
+* ...
