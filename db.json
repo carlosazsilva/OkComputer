@@ -1,0 +1,457 @@
+{
+  "users": [
+    {
+      "firstName": "Carlos",
+      "lastName": "Silva",
+      "email": "email@email.com",
+      "password": "1234",
+      "address": "Address 1",
+      "addressOpt": "",
+      "phone": 912345678,
+      "birthdate": "1970-12-25",
+      "postalCode": "0000-000",
+      "city": "City",
+      "country": "Country",
+      "shoppingCart": [
+        {
+          "productId": 3,
+          "quantity": 7
+        },
+        {
+          "productId": 4,
+          "quantity": 8
+        },
+        {
+          "productId": 5,
+          "quantity": 7
+        },
+        {
+          "productId": 14,
+          "quantity": 1
+        },
+        {
+          "productId": 16,
+          "quantity": 1
+        }
+      ],
+      "orders": [
+        {
+          "orderId": 1
+        },
+        {
+          "orderId": 2
+        },
+        {
+          "orderId": 3
+        },
+        {
+          "orderId": 4
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 4,
+      "name": "MITS Altair 8800",
+      "make": "MITS",
+      "model": "Altair 8800",
+      "price": 360,
+      "images": [
+        "assets/images/computers/altair/altair-01.jpg",
+        "assets/images/computers/altair/altair-02.jpg"
+      ],
+      "description": "The Altair 8800 is a microcomputer designed in 1974 by MITS and based on the Intel 8080 CPU. Interest grew quickly after it was featured on the cover of the January 1975 issue of Popular Electronics and was sold by mail order through advertisements there, in Radio-Electronics, and in other hobbyist magazines. The Altair is widely recognized as the spark that ignited the microcomputer revolution as the first commercially successful personal computer. The computer bus designed for the Altair was to become a de facto standard in the form of the S-100 bus, and the first programming language for the machine was Microsoft's founding product, Altair BASIC.",
+      "stock": 9,
+      "featured": false
+    },
+    {
+      "id": 2,
+      "categoryId": 3,
+      "name": "Manchester Computers, Atlas Computer",
+      "make": "Manchester Computers",
+      "model": "Atlas Computer",
+      "price": 7200,
+      "images": [
+        "assets/images/computers/atlas/atlas-01.jpg",
+        "assets/images/computers/atlas/atlas-02.jpg"
+      ],
+      "description": "The Atlas Computer was one of the world's first supercomputers, in use from 1962 until 1971. It was considered to be the most powerful computer in the world at that time. Atlas' capacity promoted the saying that when it went offline, half of the United Kingdom's computer capacity was lost. It is notable for being the first machine with virtual memory (at that time referred to as 'one-level store') using paging techniques; this approach quickly spread, and is now ubiquitous.",
+      "stock": 7,
+      "featured": false
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "name": "Bendix Corporation, Bendix G-15",
+      "make": "Bendix Corporation",
+      "model": "Bendix G-15",
+      "price": 49500,
+      "images": [
+        "assets/images/computers/bendix/bendix-01.jpg",
+        "assets/images/computers/bendix/bendix-02.jpg",
+        "assets/images/computers/bendix/bendix-03.jpg"
+      ],
+      "description": "The Bendix G-15 is a computer introduced in 1956 by the Bendix Corporation, Computer Division, Los Angeles, California. It is about 5 by 3 by 3 feet (1.52 m × 0.91 m × 0.91 m) and weighs about 966 pounds (438 kg). The G-15 has a drum memory of 2,160 29-bit words, along with 20 words used for special purposes and rapid-access storage.",
+      "stock": 7,
+      "featured": true
+    },
+    {
+      "id": 4,
+      "categoryId": 3,
+      "name": "Control Data Corporation, CDC 6500",
+      "make": "Control Data Corporation",
+      "model": "CDC 6500",
+      "price": 8000000,
+      "images": [
+        "assets/images/computers/cdc/cdc-01.jpg",
+        "assets/images/computers/cdc/cdc-02.jpg",
+        "assets/images/computers/cdc/cdc-03.jpg",
+        "assets/images/computers/cdc/cdc-04.jpg"
+      ],
+      "description": "The CDC 6000 series was a family of mainframe computers manufactured by Control Data Corporation in the 1960s. It consisted of the CDC 6200, CDC 6300, CDC 6400, CDC 6500, CDC 6600 and CDC 6700 computers, which were all extremely rapid and efficient for their time. Each was a large, solid-state, general-purpose, digital computer that performed scientific and business data processing as well as multiprogramming, multiprocessing, Remote Job Entry, time-sharing, and data management tasks under the control of the operating system called SCOPE (Supervisory Control Of Program Execution).",
+      "stock": 8,
+      "featured": false
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "name": "Electronic Associates, EAI PACE TR-48",
+      "make": "Electronic Associates",
+      "model": "PACE TR-48",
+      "price": 25000,
+      "images": [
+        "assets/images/computers/eai/tr-01.jpg",
+        "assets/images/computers/eai/tr-02.jpg",
+        "assets/images/computers/eai/tr-03.jpg",
+        "assets/images/computers/eai/tr-04.jpg"
+      ],
+      "description": "EAI was the largest supplier of general-purpose analog computers. Transistorized models like the TR-48 were used for satellite design, chemotherapy studies, chemical reactor simulation, and more.",
+      "stock": 8,
+      "featured": true
+    },
+    {
+      "id": 6,
+      "categoryId": 4,
+      "name": "Electronic Associates, EAI 2000",
+      "make": "Electronic Associates",
+      "model": "EAI 2000",
+      "price": 0,
+      "images": [
+        "assets/images/computers/eai/2000-01.jpg",
+        "assets/images/computers/eai/2000-02.jpg",
+        "assets/images/computers/eai/2000-03.jpg",
+        "assets/images/computers/eai/2000-04.jpg"
+      ],
+      "description": "EAI was the largest supplier of general-purpose analog computers. Transistorized models like the 2000 were used for satellite design, chemotherapy studies, chemical reactor simulation, and more.",
+      "stock": 0,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "categoryId": 3,
+      "name": "Elliott Brothers, Elliott 803",
+      "make": "Elliott Brothers",
+      "model": "Elliott 803",
+      "price": 29000,
+      "images": [
+        "assets/images/computers/elliot/elliot-01.jpg",
+        "assets/images/computers/elliot/elliot-02.jpg",
+        "assets/images/computers/elliot/elliot-03.jpg"
+      ],
+      "description": "The Elliott 803 is a small, medium-speed transistor digital computer which was manufactured by the British company Elliott Brothers in the 1960s. About 211 were built.",
+      "stock": 2,
+      "featured": true
+    },
+    {
+      "id": 8,
+      "categoryId": 3,
+      "name": "Rechenelektronik Glashütte ENDIM 2000",
+      "make": "Rechenelektronik Glashütte",
+      "model": "ENDIM 2000",
+      "price": 0,
+      "images": [
+        "assets/images/computers/endim/endim-01.jpg",
+        "assets/images/computers/endim/endim-02.jpg",
+        "assets/images/computers/endim/endim-03.jpg",
+        "assets/images/computers/endim/endim-04.jpg"
+      ],
+      "description": "The ENDIM 2000 analog computer was a tube based design developed and manufactured in the former German Democratic Republic at \"Rechenelektronik Glashütte\".",
+      "stock": 0,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "categoryId": 1,
+      "name": "Atomic Energy Research, Harwell Dekatron Computer, Wolverhampton Instrument for Teaching Computing from Harwell (WITCH)",
+      "make": "Atomic Energy Research",
+      "model": "Harwell Dekatron",
+      "price": 0,
+      "images": [
+        "assets/images/computers/harwell/decatron-01.jpg",
+        "assets/images/computers/harwell/decatron-02.jpg",
+        "assets/images/computers/harwell/decatron-03.jpg",
+        "assets/images/computers/harwell/decatron-04.jpg"
+      ],
+      "description": "The Harwell computer, later known as the Wolverhampton Instrument for Teaching Computing from Harwell (WITCH), or the Harwell Dekatron Computer, is an early British relay-based computer of the 1950s. Construction started in 1949, and the machine became operational in April 1951.",
+      "stock": 0,
+      "featured": false
+    },
+    {
+      "id": 10,
+      "categoryId": 4,
+      "name": "Cray Research, Cray-1",
+      "make": "Cray Research",
+      "model": "Cray-1",
+      "price": 7900000,
+      "images": [
+        "assets/images/computers/cray/cray-01.jpg",
+        "assets/images/computers/cray/cray-02.jpg",
+        "assets/images/computers/cray/cray-03.jpg",
+        "assets/images/computers/cray/cray-04.jpg"
+      ],
+      "description": "The Cray-1 was a supercomputer designed, manufactured and marketed by Cray Research. Announced in 1975, the first Cray-1 system was installed at Los Alamos National Laboratory in 1976. Eventually, over 100 Cray-1's were sold, making it one of the most successful supercomputers in history. It is perhaps best known for its unique shape, a relatively small C-shaped cabinet with a ring of benches around the outside covering the power supplies and the cooling system.",
+      "stock": 6,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "categoryId": 4,
+      "name": "Technical University of Dresden HDR 75",
+      "make": "Tech University of Dresden",
+      "model": "HDR 75",
+      "price": 0,
+      "images": [
+        "assets/images/computers/hdr/hdr-01.jpg",
+        "assets/images/computers/hdr/hdr-02.jpg"
+      ],
+      "description": "The HDR 75 is a small analog hybrid computer that was developed in the former DDR at the Technical University of Dresden (now known as The Center for Information Services and High Performance Computing).",
+      "stock": 0,
+      "featured": false
+    },
+    {
+      "id": 12,
+      "categoryId": 3,
+      "name": "IBM 729 V",
+      "make": "IBM",
+      "model": "729 V",
+      "price": 300000,
+      "images": [
+        "assets/images/computers/ibm/729-01.jpg",
+        "assets/images/computers/ibm/729-02.jpg",
+        "assets/images/computers/ibm/729-03.jpg",
+        "assets/images/computers/ibm/729-04.jpg"
+      ],
+      "description": "The IBM 729 Magnetic Tape Unit was IBM's iconic tape mass storage system from the late 1950s through the mid-1960s. Part of the IBM 7 track family of tape units, it was used on late 700, most 7000 and many 1400 series computers. Like its predecessor, the IBM 727 and many successors, the 729 used 1/2 inch (12.7 mm) magnetic tape up to 2400 feet (730 m) long wound on reels up to 10½ inch (267 mm) diameter.",
+      "stock": 7,
+      "featured": false
+    },
+    {
+      "id": 13,
+      "categoryId": 3,
+      "name": "IBM 1130",
+      "make": "IBM",
+      "model": "1130",
+      "price": 32000,
+      "images": [
+        "assets/images/computers/ibm/1130-01.jpg",
+        "assets/images/computers/ibm/1130-02.jpg",
+        "assets/images/computers/ibm/1130-03.jpg",
+        "assets/images/computers/ibm/1130-04.jpg"
+      ],
+      "description": "The IBM 1130 Computing System, introduced in 1965,[1] was IBM's least expensive computer at that time. A binary 16-bit machine, it was marketed to price-sensitive, computing-intensive technical markets, like education and engineering, succeeding the decimal IBM 1620 in that market segment. Typical installations included a 1 megabyte disk drive that stored the operating system, compilers and object programs, with program source generated and maintained on punched cards. Fortran was the most common programming language used, but several others, including APL, were available.",
+      "stock": 9,
+      "featured": true
+    },
+    {
+      "id": 14,
+      "categoryId": 2,
+      "name": "IBM 1401",
+      "make": "IBM",
+      "model": "1401",
+      "price": 20000,
+      "images": [
+        "assets/images/computers/ibm/1401-01.jpg",
+        "assets/images/computers/ibm/1401-02.jpg",
+        "assets/images/computers/ibm/1401-03.jpg"
+      ],
+      "description": "The first member of the highly successful IBM 1400 series, it was aimed at replacing unit record equipment for processing data stored on punched cards and at providing peripheral services for larger computers. The 1401 is considered to be the Model-T Ford of the computer industry, because it was mass-produced and because of its sales volume. Over 12,000 units were produced and many were leased or resold after they were replaced with newer technology. The 1401 was withdrawn on February 8, 1971.",
+      "stock": 6,
+      "featured": false
+    },
+    {
+      "id": 15,
+      "categoryId": 3,
+      "name": "IBM 2401",
+      "make": "IBM",
+      "model": "2401",
+      "price": 20000,
+      "images": [
+        "assets/images/computers/ibm/2401-01.jpg",
+        "assets/images/computers/ibm/2401-02.jpg",
+        "assets/images/computers/ibm/2401-03.jpg",
+        "assets/images/computers/ibm/2401-04.jpg"
+      ],
+      "description": "The 2400 Series Magnetic Tape Units were introduced with the System/360 and were the first to use 9 track tape. The dimensions of the tape and reels were identical to those used with 7 track units, such as the IBM 729. But older 7 track tapes could be read and written only on special 2400 drives equipped with 7 track read and write heads and the 7 track compatibility option.",
+      "stock": 3,
+      "featured": false
+    },
+    {
+      "id": 16,
+      "categoryId": 3,
+      "name": "IBM 360",
+      "make": "IBM",
+      "model": "360",
+      "price": 100000,
+      "images": [
+        "assets/images/computers/ibm/360-01.jpg",
+        "assets/images/computers/ibm/360-02.jpg",
+        "assets/images/computers/ibm/360-03.jpg",
+        "assets/images/computers/ibm/360-04.jpg"
+      ],
+      "description": "The IBM System/360 (S/360) is a family of mainframe computer systems that was announced by IBM on April 7, 1964, and delivered between 1965 and 1978. It was the first family of computers designed to cover the complete range of applications, from small to large, both commercial and scientific. The design made a clear distinction between architecture and implementation, allowing IBM to release a suite of compatible designs at different prices. All but the only partially compatible Model 44 and the most expensive systems use microcode to implement the instruction set, which features 8-bit byte addressing and binary, decimal and hexadecimal floating-point calculations.",
+      "stock": 1,
+      "featured": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "40's machines"
+    },
+    {
+      "id": 2,
+      "name": "50's machines"
+    },
+    {
+      "id": 3,
+      "name": "60's machines"
+    },
+    {
+      "id": 4,
+      "name": "70's machines"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "clientId": "1",
+      "date": "2020-08-31T10:08:43.519Z",
+      "orderProducts": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "unitPrice": 360,
+          "subTotal": 360
+        },
+        {
+          "productId": 2,
+          "quantity": 1,
+          "unitPrice": 7200,
+          "subTotal": 7200
+        }
+      ],
+      "paymentId": 1,
+      "shippingId": 3,
+      "state": "processing",
+      "totalPrice": 7560
+    },
+    {
+      "id": 2,
+      "clientId": "1",
+      "date": "2020-08-31T10:19:13.442Z",
+      "orderProducts": [
+        {
+          "productId": 13,
+          "quantity": 2,
+          "unitPrice": 32000,
+          "subTotal": 64000
+        }
+      ],
+      "paymentId": 1,
+      "shippingId": 3,
+      "state": "processing",
+      "totalPrice": 64000
+    },
+    {
+      "id": 3,
+      "clientId": "1",
+      "date": "2020-08-31T12:42:34.847Z",
+      "orderProducts": [
+        {
+          "productId": 5,
+          "quantity": 1,
+          "unitPrice": 25000,
+          "subTotal": 25000
+        },
+        {
+          "productId": 10,
+          "quantity": 1,
+          "unitPrice": 7900000,
+          "subTotal": 7900000
+        },
+        {
+          "productId": 12,
+          "quantity": 1,
+          "unitPrice": 300000,
+          "subTotal": 300000
+        }
+      ],
+      "paymentId": 2,
+      "shippingId": 3,
+      "state": "processing",
+      "totalPrice": 8225000
+    },
+    {
+      "id": 4,
+      "clientId": "1",
+      "date": "2020-08-31T18:45:00.101Z",
+      "orderProducts": [
+        {
+          "productId": 5,
+          "quantity": 1,
+          "unitPrice": 25000,
+          "subTotal": 25000
+        }
+      ],
+      "paymentId": 1,
+      "shippingId": 3,
+      "state": "processing",
+      "totalPrice": 25000
+    }
+  ],
+  "paymentMethods": [
+    {
+      "id": 1,
+      "name": "Credit card"
+    },
+    {
+      "id": 2,
+      "name": "PayPal"
+    },
+    {
+      "id": 3,
+      "name": "Cash on delivery"
+    }
+  ],
+  "shippingMethods": [
+    {
+      "id": 1,
+      "name": "CTT",
+      "price": 50
+    },
+    {
+      "id": 2,
+      "name": "CTT express",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "name": "Store pickup",
+      "price": 0
+    }
+  ],
+  "messages": []
+}
