@@ -34,7 +34,7 @@ Navigate to http://localhost:4200/. The app will automatically reload if you cha
 
 ## Fake REST API
 
-Launch [JSON Server](https://www.npmjs.com/package/json-server):
+Launch [JSON Server](https://www.npmjs.com/package/json-server), "a full fake REST API with zero coding in less than 30 seconds":
     
     npx json-server --watch db.json
 
