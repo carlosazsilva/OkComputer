@@ -20,7 +20,7 @@ An on-line store but as if we were in the 80s! Some of the features implemented:
 
 ## Install the dependencies
 
-To try it out for yourself, install all the dependecies. You'll also need to have Angular installed.
+To try it out for yourself, install all the dependencies. You'll also need to have Angular installed.
 
     npm install
 
