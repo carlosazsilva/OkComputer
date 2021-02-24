@@ -43,6 +43,7 @@ The API runs by default in `http://localhost:3000`. The resources are located in
 * `http://localhost:3000/users`
 * `http://localhost:3000/products`
 * `http://localhost:3000/categories`
+* `http://localhost:3000/orders`
 * `http://localhost:3000/paymentMethods`
 * `http://localhost:3000/shippingMethods`
 * `http://localhost:3000/messages`
